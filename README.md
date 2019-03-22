@@ -63,8 +63,9 @@ Play your livewire channel to test everything worked
 $ xplay 10041
 ```
 
+# PREFORK DOCUMENTATION
 
-setup
+setup [pre-fork]
 =====
 If you've installed `play` and `rtpdump` somewhere odd, you'll need to update those paths in xplay.py
 ```bash
@@ -72,7 +73,7 @@ $ chmod +x xplay.py
 $ cp xplay.py /usr/local/bin/xplay
 ```
 
-usage
+usage [pre-fork]
 =====
 Make sure you assign your computer an IP address that is on the Axia network. Run xplay with the Axia channel number you'd like to listen in on, and you'll hear the Livewire stream. ^C to end.
 ```bash
